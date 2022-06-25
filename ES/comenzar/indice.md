@@ -46,8 +46,22 @@ Dependiendo la entidad y permisos activados a una KEY / cuenta / usuario, podrem
 
 El Webservice de Prestashop, y sus APIs, deben primero activarse en el back-office de la tienda en cuestión, además de generar una credencial o token, a fin de validarnos y que nos identifique. En la misma acción de crear el acceso, es necesario activar los permisos (GET, POST, PUT, DELETE, HEAD) para cada entidad y/o módulo o funcionalidad:
 
-image.png
+
 
 ### Comienza a usar las APIs y Webservice de Prestashop con Postman
+
+Una vez que tienes las credenciales que te brindó el administrador de la tienda, puedes probarlas fácil y rápido desde el navegador. Todos los navegadores hacen un GET por defecto, asi que nada más poner la url en el formato de abajo y podrás validar esten ok para comenzar:
+
+1. example.com/api
+    - te pedirá usuario y contraseña, al usuario lo dejas en blanco, a la password le pones el token que te compartieron.
+
+2. {token}@example.com/api/
+    - ingresas el token @ (arroba) el dominio de la tienda. Esta opción es MUY insegura, ya que pueden capturar el token y usarlo maliciosamente, pero para entornos de prueba va bien.
+
+#### Valida permisos y accesos a la API de Prestashop:
+
+Nada más ingresar con los métodos de arriba o si lo haces con Postman, verás a qué entidades tienes permisos de acceso:
+
+image.png
 
 ### Desarrollos posibles y varias ideas para usar las APIs y Webservice de Prestashop
