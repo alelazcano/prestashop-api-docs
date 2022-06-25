@@ -32,6 +32,8 @@ Más adelante veremos sugerencias de uso y buenas prácticas sobre varios temas,
 
 ##### Como CRUD y REST, el Webservice / API de Prestashop admite:
 
+Dependiendo la entidad y permisos activados a una KEY / cuenta / usuario, podremos acceder a realizar diferentes acciones. Aquí una equivalencia rápida y explicativa sobre el tema:
+
 |   HTTP/REST |  CRUD   |   SQL     |
 |   ---       |  ---    |   ---     |
 |   POST      |	Create  |   INSERT  |
@@ -40,7 +42,11 @@ Más adelante veremos sugerencias de uso y buenas prácticas sobre varios temas,
 |   DELETE    |	Delete  |	DELETE  |
 
 
-### A qué puedes acceder, como habilitarlo, permisos, seguridad y más.
+### A qué puedes acceder, como habilitarlo, permisos, seguridad y más:
+
+El Webservice de Prestashop, y sus APIs, deben primero activarse en el back-office de la tienda en cuestión, además de generar una credencial o token, a fin de validarnos y que nos identifique. En la misma acción de crear el acceso, es necesario activar los permisos (GET, POST, PUT, DELETE, HEAD) para cada entidad y/o módulo o funcionalidad:
+
+image.png
 
 ### Comienza a usar las APIs y Webservice de Prestashop con Postman
 
