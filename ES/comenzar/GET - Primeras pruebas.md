@@ -102,3 +102,21 @@ Ejemplo de sólo acceso a algunas entidades, por ejemplo una integración logís
     "zones"
 ]
 ```
+
+entonces la empresa de logística podrá consultar `{{url-web-integlogistica}}/order_carriers/2` y obtendrá una respuesta como esta:
+
+```json
+{
+    "order_carrier": {
+        "id": 2,
+        "id_order": "2",
+        "id_carrier": "2",
+        "id_order_invoice": "0",
+        "weight": "0.000000",
+        "shipping_cost_tax_excl": "7.000000",
+        "shipping_cost_tax_incl": "8.400000",
+        "tracking_number": "",
+        "date_add": "2022-06-25 01:45:01"
+    }
+}
+```
