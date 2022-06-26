@@ -8,7 +8,7 @@ A mí siempre me gusta iniciar en el navegador completando http://demopresta.loc
 
 Primer GET con la API de Pestashop:
 
-\* en mi caso utilizo una instalación en localhost con el dominio `demopresta.local` para más facilidad.
+[*] en mi caso utilizo una instalación en localhost con el dominio `demopresta.local` para más facilidad.
 
 Ejemplo de permisos 100% para todos los métodos y entidades/módulos:
 
