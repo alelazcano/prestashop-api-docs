@@ -83,7 +83,8 @@ Ejemplo de permisos 100% para todos los métodos y entidades/módulos:
   "warehouses",
   "weight_ranges",
   "zones"
-]```
+]
+```
 
 Ejemplo de sólo acceso a algunas entidades, por ejemplo una integración logística, donde sólo daremos acceso un poco más restringido a:
 
@@ -99,4 +100,5 @@ Ejemplo de sólo acceso a algunas entidades, por ejemplo una integración logís
     "shops",
     "stores",
     "zones"
-]```
+]
+```
